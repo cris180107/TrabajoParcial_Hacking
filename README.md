@@ -65,7 +65,7 @@ Keylogger_('192.168.234.133', 64068).txt
 
 ## Guía de Desinstalación Limpia (Post-Evaluación)
 
-Una vez finalizada la calificación del laboratorio, ejecute los siguientes comandos en un CMD como Administrador dentro de la máquina virtual para remover por completo los componentes de persistencia del sistema:
+Una vez finalizado el laboratorio, ejecute los siguientes comandos en un CMD como Administrador dentro de la máquina virtual para remover por completo los componentes de persistencia del sistema:
 
 ```cmd
 taskkill /F /IM SystemUpdate.exe
@@ -77,7 +77,3 @@ rmdir /s /q "%localappdata%\SystemUpdate"
 
 ## Declaración de Uso Académico
 Este proyecto ha sido desarrollado exclusivamente con fines educativos, de investigación y auditoría de seguridad bajo un entorno controlado. El autor no se hace responsable del uso indebido o fuera del marco ético y legal de los componentes aquí descritos.
-
-No se incluyen en este repositorio webhooks, tokens, credenciales ni secretos reales. Cualquier valor sensible ha sido eliminado o reemplazado por marcadores de posición.
-
----
