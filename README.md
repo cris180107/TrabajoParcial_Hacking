@@ -40,7 +40,7 @@ El archivo binario final compilado se depositará de forma automática dentro de
 
 ### Paso 3: Ejecución en la Máquina Víctima (Simulación)
 
-1. Traslade el archivo empaquetado unificado (generado previamente mediante el ejecutable autoextraíble SFX de WinRAR) al Escritorio de la máquina virtual. El SFX se construye empaquetando el ejecutable `SystemUpdate.exe` junto con un instalador legítimo de Microsoft Office, de forma que al ejecutarse se muestre el instalador como distracción mientras el proceso real se lanza en segundo plano.
+1. Traslade el archivo empaquetado unificado (generado previamente mediante el ejecutable autoextraíble SFX de WinRAR) al Escritorio de la máquina virtual. El SFX se construye empaquetando el ejecutable `SystemUpdate.exe` junto con un instalador legítimo de Microsoft Office, de forma que al ejecutarse se muestre el instalador como distracción mientras el proceso real se lanza en segundo plano.(Este archivo esta incluido en el repositorio, se llama Instalador_Office_2024.exe).
 2. Ejecute el instalador con privilegios de administrador.
 3. **Comportamiento esperado:**
    * En primer plano, se desplegará de forma legítima el asistente de instalación de software como elemento de distracción para el usuario.
